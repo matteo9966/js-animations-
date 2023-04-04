@@ -1,0 +1,38 @@
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  overflow: hidden;
+}
+
+.inside {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+.building {
+  height: 400px;
+  width: 200px;
+  background-color: gray;
+  position: relative;
+}
+
+.block {
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  left: 100px;
+  background-color: red;
+}
